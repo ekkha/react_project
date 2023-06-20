@@ -2,10 +2,22 @@ import React from 'react'
 import FitnessReusable from './FitnessReusable';
 const FitnessStories = ({props}) => {
   const fitnessObj=[
+  {
+      
+        img:'https://domf5oio6qrcr.cloudfront.net/medialibrary/12301/dd36cd98-fd8c-48ea-8c39-15832866ce9c.jpg',
+        title:"Single knee rotation",
+        para:"Lie on your back with your legs extended on the floor Relax your shoulders against the floor. Bend your left knee and place your left foot on your right thigh just above the knee "
+      },
+      
     {
       img:'https://media1.popsugar-assets.com/files/thumbor/VAPe-sKElq1UEu9dg6UKo45UJtM/104x208:3315x3419/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/12/30/943/n/1922729/f2e892315e0a6e7e776859.71445957_/i/yoga-poses-to-get-strong-for-headstand.jpg',
       title:"HEAD STAND",
       para:"Headstand improves body awareness, circulation, and posture. It can help reduce swelling in your ankles and feet, boost energy, fight fatigue, and build confidence."
+    },
+    {
+      img:'https://www.bing.com/images/blob?bcid=r3CfGCaszbwFxA',
+      title:"Standing knee lift",
+      para:"Starting position: Stand up straight with your feet together and your hands on your hips.Movement: Lift your left knee toward the ceiling as high as is comfortable or until your thigh is parallel to the floor. Hold, then slowly lower your knee to the starting position."
     },
     {
       img:'https://www.yogajournal.com/wp-content/uploads/2022/01/Forearm-Plank_Andrew-Clark.jpg',
@@ -22,7 +34,7 @@ const FitnessStories = ({props}) => {
       title:'DHANURASANA POSE',
       para:'Bow Pose (Dhanurasana) is an intermediate yoga pose similar to a backbend. It’s one of the 12 basic Hatha Yoga poses. By lifting your torso up and backward, the chest is opened and the back is deeply stretched. This pose is a great way to deeply stretch the back after a long day of hunching over.'
     },
-    
+  
     
   ]
   return (
